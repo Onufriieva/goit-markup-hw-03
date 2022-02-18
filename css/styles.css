@@ -51,6 +51,7 @@ h1,h2,h3 {
 .link-logo {
     display: inline-block;
     padding: 0;
+   
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -59,6 +60,14 @@ h1,h2,h3 {
     
     text-decoration: none;
 }
+
+.text-logo {
+    display: inline-block;
+    width: 145px;
+    height: 31px;
+    margin: 0;
+}
+
 
 .web {
     font-family: 'Raleway', sans-serif;
@@ -69,12 +78,6 @@ h1,h2,h3 {
 .studio{
     color: var(--title-font);
 }
-/*
-.site-nav {
-    display: flex;
-    flex-direction: row;
-}
-*/
 
 .nav-list {
     
@@ -84,6 +87,9 @@ h1,h2,h3 {
 }
 
 .link-nav {
+
+    width: 49px;
+    height: 16px;
    
 
     color: var(--title-font);
@@ -96,6 +102,7 @@ h1,h2,h3 {
 }
 
 .link-current {
+
     color: var(--button-link-color);
     letter-spacing: 0.02em;
 }
@@ -121,8 +128,14 @@ h1,h2,h3 {
 }
 
 /*Hero*/
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+}
+
 .hero {
-margin-bottom: 94px;
+   
 
     background-color: var(--background-footer);
     font-family: 'Roboto';
@@ -132,30 +145,38 @@ margin-bottom: 94px;
 }
 
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 30;
+    width: 696px;
+    height: 120px;
+   margin-left: 452px;
+   margin-right: 452px;
+    margin-bottom: 30px;
     
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.17em;
     color: var(--background-header);
+   
     
+
+    background-color: tomato;
 }
 
 .button-hero {
+
     display: inline-block;
     padding: 10px 32px;
     min-width: 200px;
     height: 50px;
     border-radius: 4px;
-    text-align: center;
+   
     border: 0;   
 
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
    letter-spacing: 0.06em;
+   text-align: center;
 
    background-color: var(--button-link-color);
    color: var(--background-header);
@@ -171,7 +192,8 @@ margin-bottom: 94px;
 
 
 .peculiarities-title {
-
+    width: 270px;
+    height: 16px;
     margin-bottom: 10px;
 
 font-weight: 700;
@@ -182,6 +204,7 @@ color: var(--title-font);
 }
 
 .peculiarities-list {
+   
 padding: 0;
 margin: 0;
 
@@ -190,7 +213,9 @@ margin: 0;
 
 .peculiarities-text {
     display: inline-block;
-    margin-bottom: 94px;
+    width: 270px;
+    height: 75px;
+   margin: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -200,7 +225,9 @@ margin: 0;
 
 /*Works*/
 
-
+.section .works {
+    padding-top: 0;
+}
 
 .works-title {
     margin-bottom: 50px;
@@ -214,7 +241,6 @@ margin: 0;
 
 .works-list {
     padding: 0;
-    margin-bottom: 94px;
 
     list-style: none;
 }
@@ -234,13 +260,20 @@ margin: 0;
     ;
     list-style: none;
     text-align: center;
-
     
 }
 
+.team-list-item {
+    width: 270px;
+    height: 368px;
+}
+
 .team-title {
-    margin-top: 94px;
+width: 376px;
+height: 42px;
+margin-left: 612px;
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
