@@ -21,20 +21,40 @@ body {
     
 }
 
+.container {
+
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+h1,h2,h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 /*Header*/
 
 
 .site-header {
+    
+    margin-bottom: 0;
+        
     background-color: var(--background-header);
     font-family: 'Roboto'; 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     
+
+    background-color:tomato;
 }
 
 
 .link-logo {
+    display: inline-block;
+    padding: 0;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -56,7 +76,10 @@ body {
 
 
 .nav-list {
+    
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .link-nav {
@@ -68,18 +91,21 @@ body {
 
 .link-nav:focus {
     color: var(--button-link-color);
-   
 }
+
 .link-current {
     color: var(--button-link-color);
     letter-spacing: 0.02em;
-    
 }
 
 
 .contacts {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+
 
 .link-contacts {
     color: var(--main-font-color);
@@ -97,9 +123,13 @@ body {
     background-color: var(--background-footer);
     font-family: 'Roboto';
     text-align: center;
+
+
 }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30;
     
     font-weight: 900;
     font-size: 44px;
@@ -130,6 +160,7 @@ body {
 
 
 .peculiarities-title {
+
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -138,10 +169,15 @@ color: var(--title-font);
 }
 
 .peculiarities-list {
+padding: 0;
+margin: 0;
+
     list-style: none;
 }
 
 .peculiarities-text {
+    display: inline-block;
+    margin: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -162,6 +198,12 @@ color: var(--title-font);
     text-align: center;
 }
 
+.works-list {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}
 
 /*Our team*/
 
@@ -171,7 +213,14 @@ color: var(--title-font);
 
 
 .team-list{
+    padding-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%
+    ;
     list-style: none;
+    text-align: center;
+
+    
 }
 
 .team-title {
@@ -182,8 +231,6 @@ color: var(--title-font);
     color: var(--title-font);
     text-align: center;
 }
-
-
 
 
 .list-title {
@@ -197,11 +244,13 @@ color: var(--title-font);
 
 
 .team-list-text {
+    display: inline-block;
+    margin: 0;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-font-color);
-    text-align: center;
+    
 }
 
 /*Footer*/
@@ -211,19 +260,36 @@ color: var(--title-font);
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+
+    
 }
 
 .footer-list {
+    padding-left: 0;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
     list-style: none;
+
 }
 
 .footer-adress {
+  
     font-style: normal;
     color: var(--background-header);
+    
+    }
+
+    .direction {
+        display: inline-block;
+        margin: 0;
     }
 
 
     .footer-contact{
+        display: inline-block;
+        padding: 0;
+
     color: var(--footer-contacts);
     
 }    
