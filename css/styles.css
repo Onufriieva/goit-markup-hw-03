@@ -31,15 +31,13 @@ body {
 
 h1,h2,h3 {
     margin-top: 0;
-    margin-bottom: 0;
+    
 }
 
 /*Header*/
 
 
 .site-header {
-    
-    margin-bottom: 0;
         
     background-color: var(--background-header);
     font-family: 'Roboto'; 
@@ -47,8 +45,6 @@ h1,h2,h3 {
     font-size: 14px;
     line-height: 1.14;
     
-
-    background-color:tomato;
 }
 
 
@@ -73,7 +69,12 @@ h1,h2,h3 {
 .studio{
     color: var(--title-font);
 }
-
+/*
+.site-nav {
+    display: flex;
+    flex-direction: row;
+}
+*/
 
 .nav-list {
     
@@ -83,6 +84,7 @@ h1,h2,h3 {
 }
 
 .link-nav {
+   
 
     color: var(--title-font);
     letter-spacing: 0.02em;
@@ -120,6 +122,8 @@ h1,h2,h3 {
 
 /*Hero*/
 .hero {
+margin-bottom: 94px;
+
     background-color: var(--background-footer);
     font-family: 'Roboto';
     text-align: center;
@@ -140,16 +144,23 @@ h1,h2,h3 {
 }
 
 .button-hero {
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    border: 0;   
 
    font-weight: 700;
    font-size: 16px;
    line-height: 1.88;
    letter-spacing: 0.06em;
+
    background-color: var(--button-link-color);
    color: var(--background-header);
    cursor: pointer;
    
-
 }
 
 .main-container{
@@ -160,6 +171,8 @@ h1,h2,h3 {
 
 
 .peculiarities-title {
+
+    margin-bottom: 10px;
 
 font-weight: 700;
 font-size: 14px;
@@ -177,7 +190,7 @@ margin: 0;
 
 .peculiarities-text {
     display: inline-block;
-    margin: 0;
+    margin-bottom: 94px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -190,6 +203,7 @@ margin: 0;
 
 
 .works-title {
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -200,7 +214,7 @@ margin: 0;
 
 .works-list {
     padding: 0;
-    margin: 0;
+    margin-bottom: 94px;
 
     list-style: none;
 }
@@ -209,6 +223,7 @@ margin: 0;
 
 .team {
     background-color: var(--background-team);
+    
 }
 
 
@@ -224,6 +239,8 @@ margin: 0;
 }
 
 .team-title {
+    margin-top: 94px;
+    margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -234,6 +251,9 @@ margin: 0;
 
 
 .list-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -245,7 +265,9 @@ margin: 0;
 
 .team-list-text {
     display: inline-block;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -260,8 +282,23 @@ margin: 0;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-
     
+}
+
+.logo-footer {
+
+    display: inline-block;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.72;
+    letter-spacing: 0.05em;
+    
+    text-decoration: none;
 }
 
 .footer-list {
@@ -282,13 +319,15 @@ margin: 0;
 
     .direction {
         display: inline-block;
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 9px;
     }
 
 
     .footer-contact{
         display: inline-block;
         padding: 0;
+        margin-bottom: 9px;
 
     color: var(--footer-contacts);
     
