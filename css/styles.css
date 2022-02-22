@@ -205,8 +205,13 @@ h1,h2,h3 {
     text-decoration: none;
 }
 
-.link-contacts:hover,
-.link-contacts:focus {
+.link-contacts-mail:hover,
+.link-contacts-mail:focus {
+    color: var(--button-link-color);
+}
+
+.link-contacts-tel:hover,
+.link-contacts-tel:focus {
     color: var(--button-link-color);
 }
 
